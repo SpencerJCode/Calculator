@@ -1,0 +1,67 @@
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: 'Quantico', sans-serif;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+/* this global reset was found in an article by Jeff Star, and can be found at
+https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/ */
+body {
+    background-color: black;
+}
+#calculator {
+    margin:0 auto;
+    background-image: url(assets/steel.png);
+    width:460px;
+    height:600px;
+    border-radius: 20px;
+    border: solid 2px rgb(198, 198, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.margin {
+    height:20px;
+}
+
+#display {
+    margin: 0 auto;
+    height: 80px;
+    width: 400px;
+    background-color: rgb(8, 8, 8);
+    text-align: right;
+    color: rgb(0, 19, 228);
+    font-family: 'Quantico', sans-serif;
+    font-size: 80px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    border: solid 4px rgb(198, 198, 198);
+    text-shadow: 0 0 10px #bfc3f9, 0 0 30px #3f64dd, 0 0 40px #3f64dd, 0 0 50px #3f64dd;
+}
+
+#equals {
+    width: 380px;
+    height: 80px;
+    border: solid 2px rgb(198, 198, 198);
+    font-size: 60px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.row > button {
+    width: 80px;
+    height: 80px;
+    border: solid 3px rgb(198, 198, 198);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right:5px;
+    background-image: url(assets/buttonmetal.png);
+    font-size: 40px;
+}
