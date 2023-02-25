@@ -45,8 +45,8 @@ function setOP(OP) {
 
 function calculate() {
     if (firstNumber != "" && secondNumber != "" && repeatCalculate == false){
-    firstNumber = parseInt(firstNumber);
-    secondNumber = parseInt(secondNumber);
+    firstNumber = parseFloat(firstNumber);
+    secondNumber = parseFloat(secondNumber);
     if (operator == "*") {total = (firstNumber * secondNumber)}
     if (operator == "/") {total = (firstNumber / secondNumber)}
     if (operator == "+") {total = (firstNumber + secondNumber)}

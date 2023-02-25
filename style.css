@@ -44,6 +44,7 @@ body {
     padding-bottom: 20px;
     border: solid 4px rgb(198, 198, 198);
     text-shadow: 0 0 10px #bfc3f9, 0 0 30px #3f64dd, 0 0 40px #3f64dd, 0 0 50px #3f64dd;
+    padding-right:10px;
 }
 
 #equals {
@@ -64,4 +65,11 @@ body {
     margin-right:5px;
     background-image: url(assets/buttonmetal.png);
     font-size: 40px;
+    box-shadow: 0 5px #666;
+    cursor: pointer;
 }
+
+.row > button:active {
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+  }
